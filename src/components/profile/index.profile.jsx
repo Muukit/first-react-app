@@ -7,8 +7,8 @@ class Profile extends React.Component {
   render (){
     return (
       <Bio/>
-      <Skill/>
-      <Link/>
+      <Skills/>
+      <Links/>
     )
   }
 }
