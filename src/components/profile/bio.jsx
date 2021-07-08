@@ -7,4 +7,4 @@ const Bio = () => (
   </div>
 )
 
-export default 
+export default Bio 

@@ -4,8 +4,8 @@ import Bio from './bio'
 class Profile extends React.Component {
   render (){
     return (
-      <Bi />
+      <Bio/>
     )
   }
 }
-export default Profil
+export default Profile
