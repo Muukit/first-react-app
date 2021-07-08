@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Bio from './profile/bio'
 class App extends React.Component {
   render () {
     return (
-      <h3>Hellow 1</h3>
+      <Bio />
     )
   }
 }
