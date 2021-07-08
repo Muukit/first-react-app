@@ -1,9 +1,9 @@
 import React from 'react'
-import Bio from './profile/bio'
+import Bio from './profile'
 class App extends React.Component {
   render () {
     return (
-      <Bio />
+      <Profile />
     )
   }
 }
