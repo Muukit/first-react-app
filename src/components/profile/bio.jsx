@@ -2,8 +2,8 @@ import React from 'react'
 
 const Bio = (props) => (
   <div className='Bio'>
-  <h3>{this.name}</h3>
-  <p>{this.title}</p>
+  <h3>{props.name}</h3>
+  <p>{props.title}</p>
   </div>
 )
 
