@@ -4,9 +4,13 @@ import Skill from './skill'
 import Links from './link'
 
 class Profile extends React.Component {
+  me = {
+    name : 'Abdul Mukit Al Mehedy',
+    title : 'Junior web develope'
+  }
   render (){
     return (
-      <Bio/>
+      <Bio name={this.me.name } />
       <Skills/>
       <Links/>
     )
