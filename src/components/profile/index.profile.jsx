@@ -15,7 +15,8 @@ class Profile extends React.Component {
     return (
         <div className ='container'>
             <Bio name={this.me.name } title={this.me.title}/>
-       </div>
+            <skill skillA ='this.me.skillA'  skillB='this.me.skillB' skillC='this.me.skillC'/>
+     </div>
     )
   }
 }
