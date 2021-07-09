@@ -10,9 +10,9 @@ class Profile extends React.Component {
   }
   render (){
     return (
-      <Bio name={this.me.name } />
-      <Skills/>
-      <Links/>
+        <div className ='container'>
+            <Bio name={this.me.name } />
+       </div>
     )
   }
 }
